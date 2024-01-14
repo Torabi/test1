@@ -1,0 +1,167 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">fdc466a9-d3b8-4056-852a-09dba0f74aca</item>
+    <item name="Name" type_name="gh_string" type_code="10">Divide Length</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Divide a curve into segments with a preset length</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">1b3b3bee-b1fa-4c76-a1b6-78f085a02ee4</item>
+        <item name="Name" type_name="gh_string" type_code="10">Divide Length</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Divide Length</item>
+      </items>
+      <chunks count="6">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>599</X>
+              <Y>406</Y>
+              <W>139</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>657</X>
+              <Y>438</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to divide</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2341c6e5-accb-4120-8e73-58713758b759</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Curve</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">67020c5f-0779-4dd1-a95f-4382d57c1d80</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>601</X>
+                  <Y>408</Y>
+                  <W>41</W>
+                  <H>30</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>623</X>
+                  <Y>423</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Length of segments</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">27b58d03-a4ff-4019-aadf-5e7c15aa7af3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Length</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Length</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">aa663f2d-6127-4da0-8b10-f7fab1afe024</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>601</X>
+                  <Y>438</Y>
+                  <W>41</W>
+                  <H>30</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>623</X>
+                  <Y>453</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Division points</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1c3eb495-ed83-4ce0-9a1f-0b1b692aa508</item>
+            <item name="Name" type_name="gh_string" type_code="10">Points</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Points</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>672</X>
+                  <Y>408</Y>
+                  <W>64</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>704</X>
+                  <Y>418</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Tangent vectors at division points</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">92749223-ecd6-4918-a2b6-402bf47b5a79</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tangents</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Tangents</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>672</X>
+                  <Y>428</Y>
+                  <W>64</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>704</X>
+                  <Y>438</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Parameter values at division points</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">8c0777e3-825d-4fb8-a256-1c6724edef0c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Parameters</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Parameters</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>672</X>
+                  <Y>448</Y>
+                  <W>64</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>704</X>
+                  <Y>458</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
